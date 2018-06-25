@@ -1,0 +1,38 @@
+//////////////////////////////////////////////////////////////////////////////////////											
+// EventItemBag 161- [이벤트]하급상자(14/ 374)					기본	젠	총합계				
+//	[ Start  ] 	2016-05-20			#REF!	300000	#REF!				
+//	[ Latest ]										
+//	[ Author ]	최유진									
+//	[ Version ]	0.0.0.1									
+//	[ Text ]	폭탄찾기(하급상자)									
+//	[ Desc ]	최초 작성									
+//////////////////////////////////////////////////////////////////////////////////////											
+// 젠 드롭 확률은 아이템 드롭확률을 제외한 나머지 확률임											
+//드롭가능맵 설정											
+0											
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel							
+	0	0	0	0							
+end											
+											
+//드롭젠 및 아이템드롭 확률											
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000											
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000											
+1											
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate			
+	"bomb"	50000 	0	0	0	0	100	1			
+end											
+											
+//skill. luck. addtoption 의 값이 1이면 랜덤으로 적용. 0이면 적용안함 											
+5											
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	DropCnt	Attribute	
+//획득확률 : 50000/1000000											
+100000											
+//보석류											
+	14	16	0	0	0	0	0	0	0	0	//생명의보석
+	14	13	0	0	0	0	0	0	0	0	//축복의보석
+	14	14	0	0	0	0	0	0	0	0	//영혼의보석
+	14	42	0	0	0	0	0	0	0	0	//조화의보석
+	12	15	0	0	0	0	0	0	0	0	//혼돈의보석
+	14	22	0	0	0	0	0	0	0	0	//창조의보석
+end											
+end											

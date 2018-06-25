@@ -1,0 +1,42 @@
+// Text Ver. 0.0.3.1										
+// Version 1.04v  - T서버										
+// Version 1.04w  - M서버										
+// 최종 작업자 - 김승태										
+// 최종 작업일 - 2012-07-09 1:54 PM										
+// 내용: 2012년 여름이벤트 불꽃유령 활용										
+										
+//드롭가능맵 설정										
+0										
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel						
+	0	0	0	1000	//로랜시아					
+	1	0	0	1000	//던전					
+	2	0	0	1000	//데비아스					
+	3	0	0	1000	//노리아					
+	4	0	0	1000	//로스트타워					
+	5	0	0	1000	//빈공간					
+	6	0	0	1000	//경기장(배틀사커)					
+	7	0	0	1000	//아틀란스					
+	8	0	0	1000	//타르칸					
+	9	0	0	1000	//악마의광장					
+	10	0	0	1000	//이카루스					
+end										
+										
+//드롭젠 및 아이템드롭 확률										
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000										
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000										
+1										
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate		
+	"SUMMER"	10000	0	0	0	0	100	1		
+end										
+										
+//skill. luck. addtoption 의 값이 1이면 랜덤으로 적용. 0이면 적용안함 (exitemflag가 1이면 무조건 엑설런트 아이템 드롭)										
+// 세부 확률 조정하는 아이템백과 이전 버전의 아이템백은 서로 작성방법이 다름.										
+2										
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag		
+//2007년 1월 29일 ~ 2월 11일										
+//획득확률 : 10000/10000										
+10000										
+	14	206	0	0	0	0	0	0	//밋밋한상자	
+end										
+end										
+										

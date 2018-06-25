@@ -1,0 +1,43 @@
+//////////////////////////////////////////////////////////////////////////////////////																				
+// Eventitembag121																				
+//	[ Start  ] 	2014-03-12																		
+//	[ Latest ]	2014-03-12 12:24 PM																		
+//	[ Author ]	사재일																		
+//	[ Version ]	0.0.0.1																		
+//	[ Text ]	근위병의선물																		
+//	[ Desc ]	최초 작성																		
+//////////////////////////////////////////////////////////////////////////////////////																				
+// 젠 드롭 확률은 아이템 드롭확률을 제외한 나머지 확률임																				
+//드롭가능맵 설정																				
+0																				
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel																
+	0	0	0	0																
+end																				
+																				
+//드롭젠 및 아이템드롭 확률																				
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000																				
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000																				
+1																				
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate												
+	"CC_Battle_1"	0	0	0	0	0	10000000	0												
+end																				
+																				
+//skill. luck. addtoption 의 값이 1이면 랜덤으로 적용. 0이면 적용안함 																				
+// 확률값 내부에 확률 지정 카테고리 개수가 20개를 초과하면 안됨.																				
+// 젠 드롭 확률 : 1-(n/1000000) 의 확률																				
+// 2-3 카테고리 내 확률이 총합 n/1000000이 되어야함. (초과하면 안됨)																				
+2																				
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag												
+//획득확률 : 500000/1000000																				
+500000																				
+	14	263	0	0	0	0	0	0	//빛의 축복(하급)											
+end																				
+//획득확률 : 350000/1000000																				
+350000																				
+	14	264	0	0	0	0	0	0	//빛의 축복(중급)											
+end																				
+//획득확률 : 150000/1000000																				
+150000																				
+	14	224	0	0	0	0	0	0	//빛의 축복(상급)											
+end																				
+end																				

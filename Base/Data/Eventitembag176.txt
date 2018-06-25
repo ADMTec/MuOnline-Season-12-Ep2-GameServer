@@ -1,0 +1,38 @@
+//////////////////////////////////////////////////////////////////////////////////////											
+// EventItemBag 175- 카드상자(14/ 392, 393)					기본	기본	총합계				
+//	[ Start  ] 	2016-08-05			#REF!		#REF!				
+//	[ Latest ]										
+//	[ Author ]	최유진									
+//	[ Version ]	0.0.0.1									
+//	[ Text ]	카드상자(카드조각이 나옴)									
+//	[ Desc ]	최초 작성									
+//////////////////////////////////////////////////////////////////////////////////////											
+// 젠 드롭 확률은 아이템 드롭확률을 제외한 나머지 확률임											
+//드롭가능맵 설정											
+0											
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel		확률확인					
+	0	0	0	0		100					
+end											
+											
+//드롭젠 및 아이템드롭 확률											
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000											
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000											
+1											
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate			
+	""	0 	0	0	0	0	100	1			
+end											
+											
+//skill. luck. addtoption 의 값이 1이면 랜덤으로 적용. 0이면 적용안함 											
+5											
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	DropCnt	Attribute	
+//획득확률 : 850000/1000000											
+850000											
+//속성 행운의부적											
+	14	189	0	0	0	0	0	0	5	0	//속성 행운의부적
+end											
+//획득확률 : 1500000/1000000											
+150000											
+//속성 카오스조합부적											
+	14	190	0	0	0	0	0	0	7	0	//속성 카오스조합부적
+end											
+end											

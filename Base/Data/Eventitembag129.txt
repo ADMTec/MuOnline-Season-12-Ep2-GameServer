@@ -1,0 +1,89 @@
+//////////////////////////////////////////////////////////////////////////////////////									
+// EventItemBag 89									
+//	[ Start  ] 	2013-02-14							
+//	[ Latest ]	2014-04-15 05:11 PM							
+//	[ Author ]	김의건							
+//	[ Version ]	0.0.0.5							
+//	[ Text ]	드롭 확률 수정							
+//	[ Desc ]								
+//////////////////////////////////////////////////////////////////////////////////////									
+// 젠 드롭 확률은 아이템 드롭확률을 제외한 나머지 확률임									
+//드롭가능맵 설정									
+0									
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel					
+	0	0	0	0					
+end									
+									
+//드롭젠 및 아이템드롭 확률									
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000									
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000									
+1									
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate	
+	"Minigame_Score2"	0 	0	0	0	0	100	1	
+end									
+									
+//skill. luck. addtoption 의 값이 1이면 랜덤으로 적용. 0이면 적용안함 									
+2									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :125000/1000000									
+125000									
+//축복의보석 묶음 (30)									
+	12	30	2	2	0	0	0	0	//축복의 보석묶음 (30)
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :150000/1000000									
+150000									
+//생명의보석 묶음 (30)									
+	12	136	2	2	0	0	0	0	//생명의 보석묶음 (30)
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :150000/1000000									
+150000									
+//조화의보석 묶음 (30)									
+	12	140	2	2	0	0	0	0	//조화의 보석묶음 (30)
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :50000/1000000									
+50000									
+//펜릴의뿔피리									
+	13	37	0	0	0	0	0	0	//펜릴의뿔피리
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :25000/1000000									
+25000									
+//콘도르의 깃털									
+	13	53	0	0	0	0	0	0	//콘도르의 깃털
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :80000/1000000									
+80000									
+//빛의축복(하급)									
+	14	263	0	0	0	0	0	0	//빛의축복(하급)
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :200000/1000000									
+200000									
+//영혼의보석 묶음(30)									
+	12	31	2	2	0	0	0	0	//영혼의 보석묶음(30)
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :170000/1000000									
+170000									
+//창조의보석 묶음(30)									
+	12	137	2	2	0	0	0	0	//창조의 보석묶음(30)
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 :50000/1000000									
+50000									
+//펜타그램									
+	12	205	0	0	0	0	0	0	//용맹스런 영웅의 비약
+	12	206	0	0	0	0	0	0	//검투사의 단도
+	12	207	0	0	0	0	0	0	//무자비한 검투사의 단도
+	12	208	0	0	0	0	0	0	//쿤둔의 광기 칼날
+	12	209	0	0	0	0	0	0	//쿤둔의 마법 주문서
+	12	210	0	0	0	0	0	0	//제국수호군의 보루
+	12	211	0	0	0	0	0	0	//이카루스의 고서
+end									
+end									
+									
+									

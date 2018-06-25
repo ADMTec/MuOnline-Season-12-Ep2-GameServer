@@ -1,0 +1,20 @@
+[GameServerInfo]	//[GameServerInfo]는 주석처리하면 안됨.						
+// Dat확장자로 올려야 함 !!!!!!!							
+//						확률(%)	풍요의 인장 확률(%)
+DropProbabilityAllMonster	=	180	;	//전체	180	18	30.6
+				//			
+DropProbabilityEachMonster	=	2180	;	//개별	2000	200	340
+				//			
+DropProbabilityEventMaterialItem	=	2181	;	//이벤트	1	0.1	
+				//			
+DropProbabilitySetItem	=	2193	;	//세트	12	1.2	
+				//			
+DropProbabilityZen	=	2393	;	//젠	200	20	
+				//			
+NoItemRate	=	2395	;	//꽝	2	0.2	
+							
+							
+							
+// 순서 바꾸면 안됨.							
+// 0 ~ 마지막 숫자를 랜덤 돌려서 나온 숫자가 각각의 구간에 							
+// 들어가면 당첨.							

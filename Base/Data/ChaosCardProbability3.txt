@@ -1,0 +1,91 @@
+//Script 이름: ChosCardProbability												
+//Ver: 0.0.0.2												
+//작업자: 김정민												
+//작업일시: 2012-03-08 11:40 AM												
+//작업내용: 세트 및 소켓 컬럼 추가												
+//확률지정 컬럼												
+0												
+	// Type	DropPro	SkillPro	LuckPro	AddPro	ExPro						
+	3	20000	500000	100000	100000	200000						
+	4	200000	500000	300000	300000	0						
+	5	45000	500000	100000	100000	300000						
+	6	100400	500000	400000	400000	400000						
+	7	20000	0	100000	100000	200000						
+	8	200000	0	300000	300000	0						
+	9	100000	0	0	0	25000						
+	10	15000	0	0	0	0						
+	11	20000	0	0	0	0						
+	12	100	0	0	0	0						
+	13	180000	0	0	0	0						
+	14	90000	0	0	0	0						
+	15	2000	0	0	0	0						
+	16	1500	0	0	0	0						
+	17	1500	0	0	0	0						
+	18	1500	0	0	0	0						
+	19	1500	0	0	0	0						
+	20	1500	0	0	0	0						
+	21	1500	0	0	0	0						
+	22	1500	0	0	0	0						
+end												
+1												
+	// Type	Value										
+	1	500000										
+	2	300000										
+	3	200000										
+end												
+2												
+	// Type	Value										
+	0	250000										
+	1	150000										
+	2	150000										
+	3	150000										
+	4	150000										
+	5	150000										
+end												
+//아이템 리스트												
+	// Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount	
+3	// 무기류 1 (엑설런트)											
+end												
+4	// 무기류 1 (일반)											
+end												
+5	// 방패류 (엑설런트)											
+end												
+6	// 방패류 (일반)											
+end												
+	// Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount	
+7	// 방어구류 1 (엑설런트)											
+end												
+8	// 방어구류 1 (일반)											
+end												
+	// Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount	
+9	// 액세서리류											
+end												
+	// Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount	
+10	// 보석류 1											
+end												
+11	// 보석류 2											
+end												
+12	// 보석류 세트											
+end												
+	// Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount	
+13	// 기타 1											
+end												
+14	// 기타 2											
+end												
+15	// 희귀아이템티켓 1											
+end												
+16	// 희귀아이템티켓 2											
+end												
+17	// 희귀아이템티켓 3											
+end												
+18	// 희귀아이템티켓 4											
+end												
+19	// 희귀아이템티켓 5											
+end												
+20	// 희귀아이템티켓 6											
+end												
+21	// 무기류 3 (엑설런트)											
+end												
+22	// 무기류 4 (일반)											
+end												
+												

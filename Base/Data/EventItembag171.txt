@@ -1,0 +1,40 @@
+// Item (14/363)에 사용되는 EventitemBag 										
+//////////////////////////////////////////////////////////////////////////////////////										
+// Eventitembag170										
+//[ Start  ] 	Season11 P.2(B) 2016-06-23									
+//[ Latest ]	2016-05-27 06:43 PM									
+//[ Author ]	사재일									
+//[ Version ]	0.0.0.1									
+//[ Text ]	시드상자									
+//[ Desc ]	최초 작성									
+//////////////////////////////////////////////////////////////////////////////////////										
+//젠 드롭 확률은 아이템 드롭확률을 제외한 나머지 확률임										
+//드롭가능맵 설정										
+0										
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel						
+	0	0	0	0						
+end										
+										
+//드롭젠 및 아이템드롭 확률										
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000										
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000										
+1										
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate		
+	"SeedBox"	1000000	0	0	0	0	100	0		
+end										
+										
+5										
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	DropCnt	Attribute
+//획득확률 : 300000/1000000										
+450000										
+	12	401	0	0	0	0	0	0	0	0
+end										
+//획득확률 : 250000/1000000										
+350000										
+	12	401	0	0	0	0	0	0	2	0
+end										
+//획득확률 : 150000/1000000										
+200000										
+	12	401	0	0	0	0	0	0	3	0
+end										
+end										

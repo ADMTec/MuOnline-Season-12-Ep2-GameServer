@@ -1,0 +1,43 @@
+//EventItemBag11 Red용
+// Text Ver. 0.0.0.6
+// Version 0.10  - T서버
+// Version 0.10  - M서버
+// 최종 작업자 - 김정민
+// 최종 작업일 - 2010-11-30 12:37 PM
+// 내용: 황금사티로스, 황금트윈테일, 그레이트황금드래곤 (eventitembag11.txt)
+	
+//드롭젠 및 아이템드롭 확률
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000
+1									
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate	
+	"gold"	8000	0	0	0	0	100	1	
+end									
+									
+//skill. luck. addtoption 의 값이 1이면 랜덤으로 적용. 0이면 적용안함 									
+2									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//2010년 12월 리뉴얼 (국내 적용)									
+//획득확률 : 1000/10000									
+1000									
+//보석류									
+	12	15	0	0	0	0	0	0	//혼돈의보석
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 : 6000/10000									
+6000									
+//보석류									
+	14	13	0	0	0	0	0	0	//축복의보석
+	14	14	0	0	0	0	0	0	//영혼의보석
+	14	16	0	0	0	0	0	0	//생명의보석
+	14	22	0	0	0	0	0	0	//창조의보석
+	14	42	0	0	0	0	0	0	//조화의보석
+end									
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	
+//획득확률 : 500/10000									
+500									
+//보석류									
+	12	30	0	0	0	0	0	0	//축복의보석묶음(10)
+	12	31	0	0	0	0	0	0	//영혼의보석묶음(10)
+end
+end

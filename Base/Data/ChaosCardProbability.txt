@@ -1,0 +1,43 @@
+//Script 이름: ChosCardProbability													
+//Ver: 0.0.0.2													
+//작업자: 김정민													
+//작업일시: 2012-03-08 11:40 AM													
+//작업내용: 세트 및 소켓 컬럼 추가													
+//확률지정 컬럼													
+0													
+	// Type	DropPro	SkillPro	LuckPro	AddPro	ExPro							
+	3	600000	0	0	0	0	//사탄						
+	4	300000	0	0	0	0	//수호정령						
+	5	70000	0	0	0	0	//데몬						
+	6	30000	0	0	0	0	//카오스조합부적						
+end													
+1													
+	// Type	Value											
+	1	500000											
+	2	300000											
+	3	200000											
+end													
+2													
+	// Type	Value											
+	0	250000											
+	1	150000											
+	2	150000											
+	3	150000											
+	4	150000											
+	5	150000											
+end													
+//아이템 리스트													
+	// Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount		
+3	// 사탄												
+	13	1	0	0	0	0	0	0	0	0	0	//사탄	
+end													
+4	// 수호정령												
+	13	65	0	0	0	0	0	0	0	0	0	//수호정령	
+end													
+5	// 데몬												
+	13	64	0	0	0	0	0	0	0	0	0	//데몬	
+end													
+6	// 카오스조합부적												
+	14	96	0	0	0	0	0	0	0	0	0	//카오스조합부적	
+end													
+													

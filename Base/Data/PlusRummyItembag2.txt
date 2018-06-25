@@ -1,0 +1,68 @@
+//////////////////////////////////////////////////////////////////////////////////////														
+// 파일명: 														
+//	[ Start  ] 	2013. 09. 25												
+//	[ Latest ]													
+//	[ Author ]													
+//	[ Version ]													
+//	[ Text ]													
+//	[ Desc ]	14/331 PC방 1시간선물상자												
+//////////////////////////////////////////////////////////////////////////////////////														
+//드롭가능맵 설정														
+0														
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel										
+	0	0	0	1000	//로랜시아									
+	1	0	0	1000	//던전									
+	2	0	0	1000	//데비아스									
+	3	0	0	1000	//노리아									
+	4	0	0	1000	//로스트타워									
+	5	0	0	1000	//빈공간									
+	6	0	0	1000	//경기장(배틀사커)									
+	7	0	0	1000	//아틀란스									
+	8	0	0	1000	//타르칸									
+	9	0	0	1000	//악마의광장									
+	10	0	0	1000	//이카루스									
+end														
+//드롭젠 및 아이템드롭 확률														
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000														
+//아이템드롭 확률은 ItemDropRate/1000. ExItemDropRate/1000														
+//확률/1000000														
+														
+														
+1	//젠													
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate						
+//		10000	0	0	0	0	1000	0						
+end														
+2	//아이템 리스트													
+// Probability	Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount			
+end														
+3	// 기간제 있는 확률 아이템 (가장 마지막에 Duration 컬럼 추가 했음) //Type 2 와 Type 3 중에 확률적으로 하나 드롭 													
+// Probability	// Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount	Dur(s내구도/개수)	Duration (초)	
+230000														
+	14	215	0	0	0	0	0	0	0	0	0	3	0	//카드조각 3개
+end														
+420000														
+	14	215	0	0	0	0	0	0	0	0	0	5	0	//카드조각 5개
+end														
+170000														
+	14	215	0	0	0	0	0	0	0	0	0	7	0	//카드조각 7개
+end														
+70000														
+	14	215	0	0	0	0	0	0	0	0	0	9	0	//카드조각 9개
+end														
+50000														
+	14	215	0	0	0	0	0	0	0	0	0	12	0	//카드조각 12개
+end														
+30000														
+	14	215	0	0	0	0	0	0	0	0	0	15	0	//카드조각 15개
+end														
+20000														
+	14	215	0	0	0	0	0	0	0	0	0	20	0	//카드조각 20개
+end														
+10000														
+	14	216	0	0	0	0	0	0	0	0	0	0	0	//카드묶음
+end														
+end														
+4	 // 무조건 드롭되는 아이템 (기간제도 가능) 													
+// Probability	// Type	Index	MinLevel	MaxLevel	Skill	LuckOption	AddOption	ExOption	SetType	SetOption	SocketSlotCount	Dur(s내구도/개수)	Duration (초)	
+	14	277	0	0	0	0	0	0	0	0	0	0	0	//스페셜카드
+end 														

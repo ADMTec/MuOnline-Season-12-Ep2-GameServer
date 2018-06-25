@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////			
+//	[ Text  Version ]		0.0.0.1
+//	[ File Name ]		PlayGuide
+//	[ 서버 / 클라 ]		서버/클라이언트
+//	[ 최종 작업자 ]		김의건
+//	[ 최종 작업일 ]		2014-04-14 15:47
+//	[문 서 설 명]		Awesomium 레벨 및 URL 주소
+//	[ 작 업 내 용 ]		최초 작성
+////////////////////////////////////////////////////////////////////////////////			
+//	사용하지 않는 번호는 색상으로 구분되어 있습니다. 빈 공간(중간 번호)에 추가될 경우 text.txt 뿐 아니라 이 파일도 갱신해주셔야 합니다.		
+//	게임내에서 표시되는 %기호 사용시에는 텍스트 상에 %%로 표기 해야 게임상에서 정상적으로 표시됩니다.		
+//Level	URL 주소		
+0	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_main.html"		
+1	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub01.html"		
+2	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub02.html"		
+3	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub05.html"		
+5	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub03.html"		
+6	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub06.html"		
+8	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub07.html"		
+10	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub04.html"		
+11	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub08.html"		
+12	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub09.html"		
+13	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub10.html"		
+15	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub11.html"		
+20	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub12.html"		
+25	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub13.html"		
+40	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub14.html"		
+50	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub15.html"		
+60	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub18.html"		
+80	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub17.html"		
+150	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub19.html"		
+180	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub18.html"		
+220	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub19.html"		
+380	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub19.html"		
+400	"http://image.webzen.kr/Mu/images/event/20140418_ingame_guide/ingame_guide_sub19.html"		

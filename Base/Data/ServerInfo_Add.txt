@@ -1,0 +1,1 @@
+IsArcaBattleServer	=	1 // 아르카쟁 서버

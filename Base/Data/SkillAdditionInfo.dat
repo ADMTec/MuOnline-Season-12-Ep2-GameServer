@@ -1,0 +1,61 @@
+;//////////////////////////////////////////////////////////////////////////////////////
+;
+; Skill Information
+;	[ Start  ] 	2006.04.07 
+;	[ Latest ]	2008.11.06
+;	
+;
+;//////////////////////////////////////////////////////////////////////////////////////
+
+
+[SkillInfo]
+;//////////////////////////////////////////////////////////////////////////////////////
+; 인피니티 애로우 (뮤즈엘프)
+;//////////////////////////////////////////////////////////////////////////////////////
+InfinityArrowSkillTime 				= 600		; 인피니티애로우 스킬 지속시간(초)
+InfinityArrowUseLevel				= 220		; 인피니티 애로우 스킬 사용 가능한 레벨
+InfinityArraowMPConsumptionPlus0		= 3		; // +0 화살 사용시 MP 소모량
+InfinityArraowMPConsumptionPlus1		= 4		; // +1 화살 사용시 MP 소모량
+InfinityArraowMPConsumptionPlus2		= 5		; // +2 화살 사용시 MP 소모량
+InfinityArraowMPConsumptionPlus3		= 6		; // +3 화살 사용시 MP 소모량
+
+;////////////////////////////////////////////////////////////////////////////////
+;// 파이어 스크림 스킬
+;//
+;////////////////////////////////////////////////////////////////////////////////
+FireScreamSkill					= 1		; 파이어스크림 스킬을 사용하는가 0:안한다 1:한다
+FireScreamExplosionAttackDistance		= 1		; 파이어스크림 스킬을 사용한 후 폭발하는 캐릭터 검색 거리(해당 캐릭터를 중심으로 사방 거리)
+FireScreamExplosionRate				= 3000		; 파이어스크림에 캐릭터/몬스터가 맞아 폭발할 확률 1/10000
+FireScreamMaxAttackCountSameSerial		= 3		; 파이어스크림 스킬을 사용했을 때 같은 시리얼 번호로 공격받을 수 있는 최대 수
+FireScreamSerialInitCount			= 50		; 파이어스크림 스킬을 사용했을 때 다중공격 핵체크를 위해 부여되는 시리얼의 최대 카운터 수
+								; 최대 카운터 수가 되면 시리얼은 초기화된다.
+CheckFireScreamSerial				= 1		; 파이어스크림 시리얼 체크 0:안한다 1:한다
+
+
+;////////////////////////////////////////////////////////////////////////////////
+;// 소울바리어 강화
+;//
+;////////////////////////////////////////////////////////////////////////////////
+SoulBarrierManaRate_Level0			= 20		; 소울바리어 일반 	마나소모량 (1/1000)
+SoulBarrierManaRate_Level1			= 21		; 소울바리어 강화 레벨1 마나소모량 (1/1000)
+SoulBarrierManaRate_Level2			= 22		; 소울바리어 강화 레벨2 마나소모량 (1/1000)
+SoulBarrierManaRate_Level3			= 23		; 소울바리어 강화 레벨3 마나소모량 (1/1000)
+SoulBarrierManaRate_Level4			= 24		; 소울바리어 강화 레벨4 마나소모량 (1/1000)
+SoulBarrierManaRate_Level5			= 25		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level6			= 26		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level7			= 27		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level8			= 28		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level9			= 29		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level10			= 30		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level11			= 31		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level12			= 32		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level13			= 33		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level14			= 34		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level15			= 35		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level16			= 36		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level17			= 37		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level18			= 38		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level19			= 39		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+SoulBarrierManaRate_Level20			= 40		; 소울바리어 강화 레벨5 마나소모량 (1/1000)
+
+

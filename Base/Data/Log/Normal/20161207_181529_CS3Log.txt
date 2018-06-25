@@ -1,0 +1,60 @@
+[12:07-18:15:29] [N] [InitCSAuth3] -- Log start -- 
+[12:07-18:15:29] [N] [InitCSAuth3] Config path : N:\csauth3.cfg
+[12:07-18:15:29] [N] [InitCSAuth3] Max Protocol : 5, Module : 51, ggsrv30 : 1
+[12:07-18:15:29] [N] [InitCSAuth3] CCSAuth_Data size : 1420
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] ConfigAutoLoadPeriod : 30
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] MinimumUserCountForActivation : 100
+[12:07-18:15:29] [N] [CCSAuth3Info] PeriodForStatisticsSurvey : 120
+[12:07-18:15:29] [N] [CCSAuth3Info] PercentageForUpdate : 80
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] UseCurrentDirectory : 0
+[12:07-18:15:29] [N] [CCSAuth3Info] DataBase : N:\DataBase
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] NormalLog : N:\Log/Normal
+[12:07-18:15:29] [N] [CCSAuth3Info] UpdateLog : N:\Log/Update
+[12:07-18:15:29] [N] [CCSAuth3Info] DebugLog : N:\Log/Debug
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] UseNormalLog : 1
+[12:07-18:15:29] [N] [CCSAuth3Info] UseUpdateLog : 1
+[12:07-18:15:29] [N] [CCSAuth3Info] UseDebugLog : 0
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] ErrorReportMinutePeriod : 120
+[12:07-18:15:29] [N] [CCSAuth3Info] ReportVersionCount : 1
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] CloseAfterWriteNormalLog : 1
+[12:07-18:15:29] [N] [CCSAuth3Info] CloseAfterWriteUpdateLog : 1
+[12:07-18:15:29] [N] [CCSAuth3Info] CloseAfterWriteDebugLog : 0
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] TurnOffCSAuth : 0
+[12:07-18:15:29] [N] [CCSAuth3Info] TurnOffSuspend : 0
+[12:07-18:15:29] [N] [CCSAuth3Info] TurnOffAlgorithm : 0
+[12:07-18:15:29] [N] [CCSAuth3Info] TurnOffUnique : 0
+[12:07-18:15:29] [N] [CCSAuth3Info] TurnOffCheckClient : 0
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] CheckClientType : 0
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] ClientReloadMinutePeriod : 1
+[12:07-18:15:29] [N] [CCSAuth3Info] ClientDirectory : N:\Client
+[12:07-18:15:29] [N] [CCSAuth3Info] CodeSectionOnly : 1
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] AllowClientCount : 1
+[12:07-18:15:29] [N] [CCSAuth3Info] WhitePercent : 80
+[12:07-18:15:29] [N] [CCSAuth3Info] BlackPercent : 3
+[12:07-18:15:29] [N] [CCSAuth3Info] ActivationUserNum : 100
+[12:07-18:15:29] [N] [CCSAuth3Info] ActivationMinutePeriod : 120
+[12:07-18:15:29] [N] [CCSAuth3Info] UpdateMinutePeriod : 5
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [CCSAuth3Info] m_bAlwaysUpdate : 0
+[12:07-18:15:29] [N] [CCSAuth3Info] m_bTestProtocol : 0
+[12:07-18:15:29] [N] [CCSAuth3Info] m_bTestVersion : 0
+[12:07-18:15:29] [N] 
+[12:07-18:15:29] [N] [InitCSAuth3] Start Protocol : 0
+[12:07-18:15:29] [N] [InitCSAuth3] Last used Protocol : 1
+[12:07-18:15:29] [N] [InitCSAuth3] Decided Protocol : 1
+[12:07-18:15:29] [N] [CGGScanManager] Init path : N:\GGScanDB
+[12:07-18:15:29] [N] [CGGScanManager] Detected DB Size : 0
+[12:07-18:15:29] [N] [CGGScanManager] Init success
+[12:07-18:15:29] [N] [InitCSAuth3] return : 0
+[12:07-18:18:08] [N] [CloseCSAuth3] return : 0

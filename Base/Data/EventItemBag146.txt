@@ -1,0 +1,37 @@
+// Item (14/294)에 사용되는 EventitemBag 											
+//////////////////////////////////////////////////////////////////////////////////////											
+// Eventitembag146											
+//[ Start  ] 	2015-04-30										
+//[ Latest ]	2015-04-30 11:32 AM										
+//[ Author ]	사재일										
+//[ Version ]	0.0.0.1										
+//[ Text ]	속성 박스 아이템백 (상단 아이템 인덱스 참고)										
+//[ Desc ]	최초 작성										
+//////////////////////////////////////////////////////////////////////////////////////											
+//젠 드롭 확률은 아이템 드롭확률을 제외한 나머지 확률임											
+//드롭가능맵 설정											
+0											
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel							
+	0	0	0	0							
+end											
+											
+//드롭젠 및 아이템드롭 확률											
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000											
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000											
+1											
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate			
+	Box_Rare	100000	0	0	0	0	100	0			
+end											
+											
+//skill. luck. addtoption 의 값이 1이면 랜덤으로 적용. 0이면 적용안함 											
+// 확률값 내부에 확률 지정 카테고리 개수가 20개를 초과하면 안됨.											
+// 젠 드롭 확률 : 1-(n/1000000) 의 확률											
+// 2-3 카테고리 내 확률이 총합 n/1000000이 되어야함. (초과하면 안됨)											
+// 테이블 5번 : 테이블 값이 5일 경우, 2와 동일하지만 DropCnt, Attribute 컬럼이 추가되어 드롭 개수 입력이 가능하다. 시즌10-3 이후 부터 사용 가능 _ Season10 P.3											
+5											
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag	DropCnt	Attribute	
+//획득확률 : 1000000/1000000											
+1000000											
+	14	290	0	0	0	0	0	0	2	0	//속성가루 (2)
+end											
+end											

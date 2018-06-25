@@ -1,0 +1,58 @@
+//////////////////////////////////////////////////////////////////////////////////////																	
+// EventItemBag 83																	
+//	[ Start  ] 	2012-10-16															
+//	[ Latest ]	2012-11-22 05:38 PM															
+//	[ Author ]	홍승욱															
+//	[ Version ]	0.0.0.3															
+//	[ Text ]	아케론 수호자 드랍 확률 조정 #2															
+//	[ Desc ]	 															
+//////////////////////////////////////////////////////////////////////////////////////																	
+// 젠 드롭 확률은 아이템 드롭확률을 제외한 나머지 확률임																	
+//드롭가능맵 설정																	
+0																	
+//	MapIndex	Drop Flag	Min Monster Level	Max MonsterLevel													
+	92	0	0	1000	// 아르카쟁 맵 (알크마르, 우바이드)												
+	96	0	0	1000	// 아르카쟁 맵 (데벤테르)												
+end																	
+																	
+//드롭젠 및 아이템드롭 확률																	
+//이벤트아이템 드롭 확률은 EventItemDropRate/1000																	
+//아이템드롭 확률은 ItemDropRate/100. ExItemDropRate/1000																	
+1																	
+//	EventName	DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate									
+	"Akeron_Event"	10000000	0	0	0	0	100	1									
+end																	
+																	
+//세트 아이템 드롭 설정 카테고리 : 세트 이외의 인덱스 입력 불가																	
+// Type. Index 만 입력하면 해당 아이템에 대한 세트아이템 랜덤 드롭 (모든 옵션은 랜덤이며 세트 아이템 2종류 중 1개가 드롭)																	
+2																	
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag									
+//획득확률 : 1000/1000000																	
+1000																	
+// 유니크 펜타그램 아이템 3EA																	
+	12	212	0	0	0	0	0	0	//아르카나 예언서								
+	12	213	0	0	0	0	0	0	//안토니아스의 검								
+	12	214	0	0	0	0	0	0	//쿤둔의 봉인서								
+end																	
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag									
+//획득확률 : 5000/1000000																	
+5000																	
+// 레어 펜타그램 아이템 4EA																	
+	12	208	0	0	0	0	0	0	//쿤둔의 광기 칼날								
+	12	209	0	0	0	0	0	0	//쿤둔의 마법 주문서								
+	12	210	0	0	0	0	0	0	//제국수호군의 보루								
+	12	211	0	0	0	0	0	0	//이카루스의 고서								
+end																	
+//	type	index	minLevel	maxLevel	skill	luck	addoption	exitemflag									
+//획득확률 : 994000/1000000																	
+994000																	
+// 보석류 EA																	
+	12	30	1	1	0	0	0	0	// 축복의 보석 묶음 20개								
+	12	30	2	2	0	0	0	0	// 축복의 보석 묶음 30개								
+	12	31	1	1	0	0	0	0	// 영혼의 보석 묶음 20개								
+	12	31	2	2	0	0	0	0	// 영혼의 보석 묶음 30개								
+	12	136	1	1	0	0	0	0	// 생명의 보석 묶음 20개								
+	12	136	2	2	0	0	0	0	// 생명의 보석 묶음 30개								
+end																	
+end																	
+																	
